@@ -4,61 +4,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FDFCFC"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#3044BA"
-        android:text="Welcome to the New NYIT App"
-        android:textColor="#FDD835"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.063" />
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="201dp"
+        android:layout_height="173dp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="38dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="204dp"
+        android:layout_height="177dp"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="38dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="398dp"
+        android:layout_height="158dp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="212dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="158dp" />
+        android:inputType="textPersonName"
+        android:text="username"
+        tools:layout_editor_absoluteX="9dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="174dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="53dp"
+        android:layout_height="157dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_set_as"
+        tools:layout_editor_absoluteX="352dp"
+        tools:layout_editor_absoluteY="0dp" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="227dp" />
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="128dp"
+        android:layout_height="140dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="370dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="241dp" />
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="133dp"
+        android:layout_height="142dp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="370dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Submit"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="296dp" />
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="145dp"
+        android:layout_height="142dp"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="367dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="133dp"
+        android:layout_height="136dp"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="504dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="136dp"
+        android:layout_height="145dp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="501dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="146dp"
+        android:layout_height="130dp"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="510dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
